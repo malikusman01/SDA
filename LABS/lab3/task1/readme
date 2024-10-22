@@ -1,0 +1,15 @@
+# Task One: Observer Pattern Implementation
+
+## How It Works
+
+This project implements the Observer Design Pattern, allowing one object (the Subject) to notify multiple observers when its state changes.
+
+1. **Subject**: This class maintains a list of observers and manages their registration and notification. When the state changes, it calls the `notifyAllObservers()` method to update all registered observers.
+
+2. **Observers**: Classes like `HexaObserver`, `OctalObserver`, and `BinaryObserver` implement the `Observer` interface, which requires them to define the `update()` method. This method contains the logic for how each observer reacts to state changes.
+
+3. **Demo**: The `ObserverPatternDemo` class demonstrates the pattern by creating a `Subject` and multiple observers. When the state of the subject changes, each observer prints its response based on the new state.
+
+This pattern decouples the subject and observers, allowing for flexible and reusable code.
+
+
