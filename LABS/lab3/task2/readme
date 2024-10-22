@@ -1,1 +1,18 @@
+# Task Two: Event Management System
+
+## How It Works
+
+This project implements an event management system using the Observer Design Pattern to manage file operations and notifications.
+
+1. **Editor**: The main class that performs file operations (open and save) and triggers events. When a file is opened or saved, it uses the `EventManager` to notify all subscribed listeners.
+
+2. **EventManager**: Manages event subscriptions and notifications. It holds a map of event types to lists of listeners, allowing different listeners to react to specific events.
+
+3. **Listeners**: 
+   - **EmailNotificationListener**: Sends an email notification when a file is saved.
+   - **LogOpenListener**: Logs a message when a file is opened.
+   - **SMSSupportListener**: Sends an SMS notification. It checks the length of the message and warns if it exceeds 160 characters.
+
+This structure provides a flexible way to handle various notifications related to file operations without tightly coupling the `Editor` class to specific actions.
+
 
