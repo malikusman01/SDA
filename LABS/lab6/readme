@@ -1,1 +1,5 @@
-
+Here we have applied the Pipe and Filter principle using html, css, js. 
+The program takes input from the user and then:
+- Converts it into uppercase
+- Removes vowels
+- Reverses the string
