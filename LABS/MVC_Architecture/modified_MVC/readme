@@ -1,3 +1,5 @@
+Run this code by creating 4 packages in java(netbeans) and cloning the code in them and running the main class.
+
 Folders had big size so they cant be uploaded.
 This is the modified MVC architecure example which includes:
 >Separate packages for each model, view, controller, 
