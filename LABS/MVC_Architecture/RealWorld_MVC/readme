@@ -1,2 +1,16 @@
-Run this code in netbeans IDE by making packages with functionalities.
+This is a simple task management application using the Model-View-Controller (MVC) design pattern. It allows you to create and manage tasks by separating the logic into three main components:
 
+Model: The Task class that holds the task data.
+View: The TaskView class that displays task information to the user.
+Controller: The TaskController class that updates the task and communicates with the view.
+Features:
+Create and update tasks.
+Display task information through the console.
+Project Structure:
+model/Task.java: Contains the task data (taskName) and provides getter and setter methods.
+View/TaskView.java: Displays the task details.
+controller/TaskController.java: Manages interactions between the Model and the View.
+MVC_RW.java: The entry point of the application that creates the model, view, and controller, and handles the task operations.
+How to Run:
+Clone the repository.
+Compile and run the MVC_RW class to see the task management in action.
