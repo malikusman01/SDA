@@ -1,1 +1,5 @@
+Folders had big size so they cant be uploaded.
+This is the modified MVC architecure example which includes:
+>Separate packages for each model, view, controller, 
+>Sepaate main package to access functionality with low coupling.
 
