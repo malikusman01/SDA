@@ -1,3 +1,26 @@
+## Architectural Problems and Solutions
+In the first part of this project, five major architectural issues commonly encountered in software systems are addressed. The following problems are discussed in detail:
+
+1. **Scalability Issues**  
+   *Problem*: Systems may face challenges in handling growing user bases, leading to performance degradation.  
+   *Solution*: Adopting microservices and horizontal scaling techniques to handle growth efficiently.
+
+2. **Tight Coupling Between Components**  
+   *Problem*: When components are tightly dependent on each other, changes in one part can break others.  
+   *Solution*: Refactor using techniques like Dependency Injection to ensure loose coupling between components.
+
+3. **Single Point of Failure (SPOF)**  
+   *Problem*: A single component failure could bring down the whole system.  
+   *Solution*: Use redundancy, clustering, and failover mechanisms to eliminate SPOFs.
+
+4. **Lack of Maintainability and Code Duplication**  
+   *Problem*: Systems with high code duplication are harder to maintain and prone to errors.  
+   *Solution*: Refactor the codebase to improve modularity, reduce duplication, and follow DRY (Don't Repeat Yourself) principles.
+
+5. **Poor Performance and Latency**  
+   *Problem*: Systems can experience slow responses and high latency due to inefficient processing or communication.  
+   *Solution*: Introduce caching, asynchronous processes, and optimize data access patterns.
+
 How to Run the Code
 Clone this repository to your local machine:
 
